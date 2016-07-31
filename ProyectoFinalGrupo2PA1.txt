@@ -1,0 +1,112 @@
+ProyectoFinalGrupo2PA1.txt
+
+SISTEMA PARA LA ASIGNACION Y EL CONTROL DEL MOBILIARIO DE OFICINAS
+
+Descripcion:
+
+	Se requiere un sistema para asignar y controlar el mobiliario y equipo de oficina en una empresa, el sistema debe de permitir la asignación del mobiliario y equipo a un departamento y por ende al encargado del departamento, para poder asignarlo debe de existir un formulario para agregar el mobiliario y equipo en una base de datos con los siguientes datos: Código de inventario, descripción del mobiliario y equipo, tipo (Si es mobiliario o equipo), valor en Lps, departamento, sección, encargado, fecha de asignación.
+	El sistema deberá de calcular la depreciación del mobiliario o equipo, por lo cual el sistema deberá de advertir si el mobiliario o equipo ya se deprecio y hay que cambiarlo, esto al momento de consultar un mobiliario o equipo.
+	El sistema deberá de mostrar el listado de departamentos, secciones, empleados, mobiliario (Por tipo, si es mobiliario o equipo), los departamentos con el mobiliario o equipo asignado y su encargado.
+
+Presentación:
+
+	 Presentar un informe donde ira:
+
+			La base de datos relacionada, 
+			El diccionario de datos, 
+			El manual técnico del sistema y 
+			El manual de usuario del sistema. 
+
+		El informe deberá llevar: 
+			Introducción, 
+			Objetivos, 
+			Marco teórico, 
+			Cuadro calificativo (Donde el coordinador evaluara del 1 al 10 el desempeño de los integrantes del grupo), 
+			Conclusiones.
+
+	 Defensa del sistema, lo cual consiste en: 
+		La demostración y explicación del sistema por parte de todos los integrantes del grupo.
+
+	 Entregar en digital el informe y el sistema completo.
+
+Evaluación:
+
+	 Primer avance: 10%
+	 Segundo avance: 10%
+	 Defensa y presentación: 25%
+	 Total 45%
+
+
+DESARROLLO
+
+	1.Analisis:
+
+Un sistema basico debe contener los modulos para Agregar, Modificar, Eliminar y Consultar registros.
+
+Los datos que se deben manejar en la base de datos son los siguientes:
+Código de inventario, descripción del mobiliario y equipo, tipo (Si es mobiliario o equipo), valor en Lps, departamento, sección, encargado, fecha de asignación.
+
+Se puede crear una tabla con los campos anteriores:
+ __________________________________________________________________________________________________________________
+|Codigo de inventario | Descripcion del M y E | Tipo | Valor | Departamento | Seccion | Encargado | Fecha Asignado |
+|------------------------------------------------------------------------------------------------------------------|
+|_____________________|_______________________|______|_______|______________|_________|___________|________________|
+
+**La tabla anterior debe ser Normalizada**
+
+
+El sistema deberá de mostrar en informes lo siguiente: 
+	Departamentos, 
+	Secciones, 
+	Empleados, 
+	Mobiliario (Por tipo, si es mobiliario o equipo), 
+	Los departamentos con el mobiliario o equipo asignado y su encargado.
+
+De lo anterior se deduce que:
+	Existiran las tablas:
+		Departamentos
+		Secciones
+		Mobiliarios
+
+	Las siguientes relaciones:
+		Departamentos_Mobiliarios
+		Departamentos_Secciones
+		Secciones_Empleados(Encargados)
+
+
+
+EL ARBOL GENERAL DE ARCHIVOS DEBERÁ CONTENER LA INFORMACION DE LA SIGUIENTE FORMA:
+
+ProyectoFinalGrupo2PA1 
+
+	Documentacion.package
+		License.txt
+		Diccionario de Datos
+		Informe.doc
+			Introducción 
+			Objetivos
+			Marco teórico
+			Cuadro calificativo 
+			Conclusiones
+		Informe.pdf
+			Introducción 
+			Objetivos
+			Marco teórico
+			Cuadro calificativo 
+			Conclusiones
+		Diagramas
+		Database.accdb
+		Normalizacion.xlsx
+
+	Ayuda.package
+		Manual Técnico del Sistema
+		Manual para el Usuario Final	
+
+	CodigoFuente.package
+		FurnishingControlProject
+
+	
+
+
+
+
