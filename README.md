@@ -1,7 +1,7 @@
 # Proyecto Final (ProyectoFinalGrupo2PA1)
 **Proyecto Final en Programacion Avanzada 1.**
 --------
-###DavidVz
+### DavidVz
 --------
 Buenas noches muchachos,
 
@@ -23,7 +23,7 @@ obtener, para hacerlo haz clic en descargar.
 
 [Descargar GitHub Desktop](https://desktop.github.com).
 
-####Indicaciones:
+#### Indicaciones:
 El proyecto que he creado aun no tiene grandes avances.  
 
 Lo que hice basicamente es lo siguiente:
