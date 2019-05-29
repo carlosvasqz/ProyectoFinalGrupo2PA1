@@ -1,7 +1,7 @@
 # Proyecto Final (ProyectoFinalGrupo2PA1)
 **Proyecto Final en Programacion Avanzada 1.**
 --------
-### DavidVz
+### CarlosVasqz
 --------
 Buenas noches muchachos,
 
